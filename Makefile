@@ -1,4 +1,7 @@
 # Build the depedencies explicitly
+all:
+	@echo "build-dependencies - Use Maven to install the dependencies"
+
 build-dependencies:
 	rm -rf target
 	mvn dependency:copy-dependencies
